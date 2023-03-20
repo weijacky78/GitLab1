@@ -1,0 +1,25 @@
+{{#each results}}
+<div>
+    <img class="user-portrait" src="{{picture.large}}" />
+    <ul>
+        {{#if name.title}}
+        <li><strong>{{name.title}} {{name.first}}{{name.last}}</strong> </li>
+        {{/if}}
+        <li class="user-email"><strong>Email: </strong>
+            {{email}}
+        </li>
+        <li><strong>Gender: </strong>
+            {{capitalize gender}}
+        </li>
+        {{!-- <li>{{{nat}}}</li> --}}
+        <li><strong>Telphone: </strong>{{{phone}}}</li>
+        <li><strong>Address: </strong></li>
+        <li>{{location.street.number}} {{location.street.name}} </li>
+        <li>{{location.city}} {{location.state}}</li>
+        <li>{{location.country}}</li>
+        <li>{{location.postcode}}</li>
+
+
+    </ul>
+</div>
+{{/each}}
