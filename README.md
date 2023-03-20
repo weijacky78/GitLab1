@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # webpack-starter
 
 Empty project.
@@ -31,3 +32,6 @@ node dist/bundle.js
 ## Credits
 
 Made with [createapp.dev](https://createapp.dev/)
+=======
+# GitLab1
+>>>>>>> e5658cd529704f217cffd5d0c6c45b16ae67b977
